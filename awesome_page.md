@@ -10,3 +10,6 @@ git commit -m"Commit thing"
 We are going to link to [find a puppy!](http://www.puppyfind.com/)
 
 <img src = "gps1.png"> This is us having a blast!
+
+I'm a crappy change
+
