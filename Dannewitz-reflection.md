@@ -16,9 +16,9 @@ GPS 1.1 - Version Control and Git
   * Here's what confuses me. After you get this notation:
   > <<<<<<<<<<<HEAD<<<<<<<<<<<<<<<<<<
   > some code
-  > (==================================)
+  > ==================================
   > other code
-  > [>>>>>>>>>>>>small_conflict>>>>>>]
+  > >>>>>>>>>>>>small_conflict>>>>>>
 
   * ...and you choose one code to keep and delete everything else, what is the next step? Are you supposed to merge the local feature-branch with the local master-branch? Or do you have to push to origin?
   * We tried merging the two local branches after resolving the conflict, but we couldn't get them to merge.
