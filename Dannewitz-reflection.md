@@ -1,5 +1,5 @@
-GPS 1.1 - Version Control and Git
--Dannewitz Reflection
+**GPS 1.1 - Version Control and Git
+-Dannewitz Reflection**
 
 1. What git concepts were you struggling with prior to the GPS session?
   * I had never used the commands fetch and merge so we struggled a bit with those in the GPS session.
@@ -14,11 +14,13 @@ GPS 1.1 - Version Control and Git
 4. What still confuses you about git?
   * The process of going through a merge conflict still confuses me. We followed the steps, and everything seemed to work how it should according to the directions.
   * Here's what confuses me. After you get this notation:
-  > <<<<<<<<<<<HEAD<<<<<<<<<<<<<<<<<<
-  > some code
-  > ==================================
-  > other code
-  > >>>>>>>>>>>>small_conflict>>>>>>
+  ```
+  <<<<<<<<<<<HEAD<<<<<<<<<<<<<<<<<<
+  some code
+  ==================================
+  other code
+  >>>>>>>>>>>>small_conflict>>>>>>
+  ```
 
   * ...and you choose one code to keep and delete everything else, what is the next step? Are you supposed to merge the local feature-branch with the local master-branch? Or do you have to push to origin?
   * We tried merging the two local branches after resolving the conflict, but we couldn't get them to merge.
